@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree');
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #495568;
+}
+.navbar{
+  font-family: Bai Jamjuree;
+  width: 80%;
+  border: 3px solid black;
+  box-sizing: border-box;
+  margin: 20px auto 0 auto;
+  background-color: #e2e2e2;
+  padding: 5px 15px 10px 15px;
+  box-shadow: 15px 15px 10px grey;
+}
+.navhead{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+.navcell{
+  width: 33.333%;
+  border: 1px solid black;
+  text-align: center;
+  height: 50px;
+  background: linear-gradient(#bad4ff, #70a6ff);
+  border-radius: 12px;
+  font-size: 20px;
+}
+.navcell:hover{
+  cursor: pointer;
+  color: white;
+  background: #4b5677;
+}
+.navcell:active{
+  cursor: pointer;
+  color: white;
+  background: black;
+}
+.navfoot{
+  font-family: Bai Jamjuree;
+  font-size: 20px;
+  cursor: pointer;
+  height: 25px;
+  text-align: center;
+  border-radius: 5px;
+}
+.navfoot:hover{
+  background: #4b5677;
+  color:white;
+}
+.footer{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: black;
+}
