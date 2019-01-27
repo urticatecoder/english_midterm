@@ -61,3 +61,30 @@ html,body{
   text-align: center;
   background: black;
 }
+.header{
+  text-align: center;
+  font-size:48px;
+  font-weight: bold;
+  font-family: Bai Jamjuree;
+  color: white;
+}
+#homepara{
+  font-size: 24px;
+  text-align: center;
+  font-family: Times;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 auto 20px auto;
+  color: white;
+  font-weight: normal;
+}
+.develmsg{
+  font-size: 30px;
+  color: white;
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  right: 20%;
+}
